@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/8legd/hugocms/config"
+	"github.com/paper2code/hugocms/config"
 	"github.com/jinzhu/gorm"
 )
 

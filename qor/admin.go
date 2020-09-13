@@ -14,8 +14,8 @@ import (
 	"github.com/qor/sorting"
 	"github.com/qor/validations"
 
-	"github.com/8legd/hugocms/config"
-	"github.com/8legd/hugocms/qor/models"
+	"github.com/paper2code/hugocms/config"
+	"github.com/paper2code/hugocms/qor/models"
 )
 
 var (
@@ -70,7 +70,7 @@ func SetupAdmin() *admin.Admin {
 
 	result.SetSiteName(config.QOR.SiteName)
 	result.SetAuth(config.Auth)
-	//result.RegisterViewPath("/home/drew/GoWork/src/github.com/8legd/hugocms/vendor/github.com/qor/admin/views")
+	//result.RegisterViewPath("/home/drew/GoWork/src/github.com/paper2code/hugocms/vendor/github.com/qor/admin/views")
 
 	// Add Asset Manager, for rich editor
 	assetManager := result.AddResource(&media_library.AssetManager{}, &admin.Config{Invisible: true})

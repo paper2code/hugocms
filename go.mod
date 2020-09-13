@@ -1,4 +1,4 @@
-module github.com/8legd/hugocms
+module github.com/paper2code/hugocms
 
 go 1.15
 
