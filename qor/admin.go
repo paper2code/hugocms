@@ -146,7 +146,7 @@ func SetupAdmin() *admin.Admin {
 		pages.Scope(&admin.Scope{
 			Name:  path,
 			Group: "Path",
-			Handle: func(db *gorm.DB, context *qor.Context) *gorm.DB {
+			Handler: func(db *gorm.DB, context *qor.Context) *gorm.DB {
 				return db.Where(models.Page{Path: path})
 			},
 		})

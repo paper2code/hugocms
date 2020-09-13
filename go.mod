@@ -30,3 +30,5 @@ require (
 	golang.org/x/image v0.0.0-20200801110659-972c09e46d76 // indirect
 	golang.org/x/net v0.0.0-20200904194848-62affa334b73 // indirect
 )
+
+replace github.com/8legd/hugocms => github.com/paper2code/hugocms v0.0.0-20200913090431-e7e5a322ef3b
